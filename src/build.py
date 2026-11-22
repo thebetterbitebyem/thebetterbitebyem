@@ -182,6 +182,14 @@ def more_section(r, prefix):
 
 # ---------- Page shell ----------
 
+def verify_tag(canonical):
+    """Google Search Console ownership tag, on the home page only."""
+    code = SITE.get("googleVerification")
+    if code and canonical == URL + "/":
+        return f'<meta name="google-site-verification" content="{esc(code)}">\n'
+    return ""
+
+
 def head(title, desc, canonical, prefix, image, structured, og_type="website"):
     return f"""<!DOCTYPE html>
 <html lang="en-GB" class="no-js">
@@ -191,7 +199,7 @@ def head(title, desc, canonical, prefix, image, structured, og_type="website"):
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
 <link rel="canonical" href="{canonical}">
-<meta property="og:site_name" content="{esc(SITE['name'])}">
+{verify_tag(canonical)}<meta property="og:site_name" content="{esc(SITE['name'])}">
 <meta property="og:type" content="{og_type}">
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(desc)}">
