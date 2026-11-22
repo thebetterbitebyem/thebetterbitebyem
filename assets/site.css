@@ -368,11 +368,23 @@ footer .wrap { row-gap: 6px; }
 .links-foot a { text-decoration: none; }
 
 /* Watch the reel */
-.reel-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
-.reel-title { margin: 18px 0 -6px; font: 800 0.75rem/1.2 var(--font-body); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
-.btn-reel { background: var(--surface); padding: 9px 16px 9px 10px; }
-.btn-reel .ic { width: 24px; height: 24px; }
-.btn-reel:hover { background: var(--peach); }
+.reel-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
+.reel-title { margin: 20px 0 -8px; font: 800 0.75rem/1.2 var(--font-body); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.btn-reel { background: var(--orange); border: 2px solid var(--ink); color: var(--ink); font-size: 1.02rem; padding: 11px 20px 11px 11px; box-shadow: 3px 3px 0 var(--ink); }
+.btn-reel:hover { transform: translate(-1px, -2px); box-shadow: 4px 5px 0 var(--ink); }
+.btn-reel:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 var(--ink); }
+.btn-reel .ic { width: 28px; height: 28px; }
+.photo-reel { position: absolute; top: 14px; right: 14px; z-index: 2; display: inline-flex; align-items: center; gap: 6px; padding: 5px 12px 5px 6px; border-radius: 999px; background: #FFFDF8; border: 2px solid var(--ink); color: var(--ink); font: 800 0.88rem/1 var(--font-body); text-decoration: none; transform: rotate(2deg); }
+.photo-reel .ic { width: 22px; height: 22px; }
+.photo-reel:hover { background: var(--peach); }
+.method-reel { margin: 8px 0 0; color: var(--muted); }
+.method-reel a { display: inline-flex; align-items: center; gap: 5px; font-weight: 700; color: var(--orange-text); text-decoration: none; }
+.method-reel a:hover { text-decoration: underline; }
+.method-reel .ic { width: 20px; height: 20px; }
 .mreel { display: inline-flex; align-items: center; gap: 6px; margin-top: 12px; font-weight: 700; font-size: 0.88rem; text-decoration: none; color: var(--orange-text); }
 .mreel .ic { width: 20px; height: 20px; }
 .mreel:hover { text-decoration: underline; }
+@media (max-width: 560px) {
+  .reel-row .btn-reel { width: 100%; justify-content: center; }
+}
+@media (prefers-reduced-motion: reduce) { .btn-reel:hover, .btn-reel:active { transform: none; } }

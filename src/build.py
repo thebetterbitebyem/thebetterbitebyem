@@ -65,6 +65,7 @@ def ld(obj):
 
 # ---------- Small drawings ----------
 
+ART["icons"].setdefault("playw", '<circle class="il f-white" cx="12" cy="12" r="9.5"/><path class="f-orange il thin" d="M10 8.2l6 3.8-6 3.8z"/>')
 ART["icons"].setdefault("play", '<circle class="il f-orange" cx="12" cy="12" r="9.5"/><path class="f-white il thin" d="M10 8.2l6 3.8-6 3.8z"/>')
 ART["icons"].setdefault("mail", '<rect class="il f-white" x="2.5" y="5" width="19" height="14" rx="2.5"/><path class="il o" d="M3.5 6.5l8.5 6.5 8.5-6.5"/>')
 ART["icons"].setdefault("chat", '<path class="il f-peach" d="M4 5h16a1.5 1.5 0 0 1 1.5 1.5v9A1.5 1.5 0 0 1 20 17h-9l-4.5 3.5V17H4a1.5 1.5 0 0 1-1.5-1.5v-9A1.5 1.5 0 0 1 4 5z"/><circle class="f-ink" cx="8" cy="11" r="1.1"/><circle class="f-ink" cx="12" cy="11" r="1.1"/><circle class="f-ink" cx="16" cy="11" r="1.1"/>')
@@ -421,7 +422,12 @@ def recipe_ld(r):
 
 def reel_button(url, label="Watch the reel"):
     return (f'<a class="btn btn-reel" href="{esc(url)}" target="_blank" rel="noopener">'
-            f'{icon("play")}{esc(label)}<span class="sr-only"> on Instagram (opens in a new tab)</span></a>')
+            f'{icon("playw")}{esc(label)}<span class="sr-only"> on Instagram (opens in a new tab)</span></a>')
+
+
+def photo_reel(url):
+    return (f'<a class="photo-reel" href="{esc(url)}" target="_blank" rel="noopener">{icon("play")}Reel'
+            f'<span class="sr-only"> on Instagram (opens in a new tab)</span></a>')
 
 
 def build_recipe(r):
@@ -463,7 +469,7 @@ def build_recipe(r):
         <div class="recipe-media">
           <div class="tile big t-{r['tile']}">
             <img class="badge" src="{prefix}logo.png" alt="" width="72" height="72">
-            {main}<span class="note-tag">{esc(r['tag'])}</span>
+            {main}<span class="note-tag">{esc(r['tag'])}</span>{photo_reel(r["reel"]) if r.get("reel") else ""}
           </div>
           {thumbs}
         </div>
@@ -471,11 +477,11 @@ def build_recipe(r):
           <p class="cats">{cats_line(r, prefix)}</p>
           <h1>{esc(r['title'])}</h1>
           <p class="lede">{esc(r['intro'])}</p>
+          {f'<div class="reel-row">{reel_button(r["reel"], "Watch the reel on Instagram")}</div>' if r.get("reel") else ""}
           <dl class="stats{stat_class}">
             {''.join(stats)}
           </dl>
           <p class="note">{note}</p>
-          {f'<div class="reel-row">{reel_button(r["reel"])}</div>' if r.get("reel") else ""}
         </div>
       </div>
       <div class="recipe-body">
@@ -489,6 +495,7 @@ def build_recipe(r):
         </section>
         <section class="method" aria-labelledby="method-title">
           <h2 id="method-title">Method</h2>
+          {f'<p class="method-reel">Prefer video? <a href="{esc(r["reel"])}" target="_blank" rel="noopener">{icon("play")}Watch me make it</a></p>' if r.get("reel") else ""}
           <ol>{''.join(f'<li id="step-{i + 1}"><p>{esc(s)}</p></li>' for i, s in enumerate(r['method']))}</ol>
           <aside class="tip"><strong>{icon('bulb')}Em's tip</strong><p>{esc(r['tip'])}</p></aside>
         </section>
@@ -552,7 +559,7 @@ def build_post(r):
         <div class="recipe-media">
           <div class="tile big t-{r['tile']}">
             <img class="badge" src="{prefix}logo.png" alt="" width="72" height="72">
-            {main}<span class="note-tag">{esc(r['tag'])}</span>
+            {main}<span class="note-tag">{esc(r['tag'])}</span>{photo_reel(r["reels"][-1]["url"]) if r.get("reels") else ""}
           </div>
           {thumbs}
         </div>
@@ -560,13 +567,13 @@ def build_post(r):
           <p class="cats">{cats_line(r, prefix)}</p>
           <h1>{esc(r['title'])}</h1>
           <p class="lede">{esc(r['intro'])}</p>
+          {reels_row}
           <dl class="stats three">
             <div><dt>{icon('cupcake')}Recipes</dt><dd>{len(ms)}</dd></div>
             <div><dt>{icon('bowl')}Bases</dt><dd>3</dd></div>
             <div class="protein"><dt>{icon('medal')}Winner</dt><dd>{winner['taste']}/10</dd></div>
           </dl>
           <p class="note">The winner: <a href="#{winner['id']}">{esc(winner['name'].lower())}</a>. Macros are approximate per bowl and vary by brand.</p>
-          {reels_row}
         </div>
       </div>
 
