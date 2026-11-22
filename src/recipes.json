@@ -1,0 +1,1357 @@
+{
+ "site": {
+  "name": "The Better Bite",
+  "author": "Em",
+  "url": "https://thebetterbitebyem.co.uk",
+  "instagram": "https://www.instagram.com/thebetterbitebyem/"
+ },
+ "recipes": [
+  {
+   "slug": "ferrero-rocher-pie",
+   "title": "Healthyish Ferrero Rocher Pie",
+   "doodle": "pie",
+   "tile": "tan",
+   "tag": "No bake",
+   "photos": [
+    {
+     "src": "photos/ferrero-1.jpg",
+     "alt": "A slice of Ferrero Rocher pie lifted out of the tin",
+     "pos": "50% 45%"
+    },
+    {
+     "src": "photos/ferrero-2.jpg",
+     "alt": "A slice being lifted out of the whole pie"
+    },
+    {
+     "src": "photos/ferrero-3.jpg",
+     "alt": "The pie with a slice cut out, showing the layers"
+    },
+    {
+     "src": "photos/ferrero-4.jpg",
+     "alt": "A slice of Ferrero Rocher pie on a plate"
+    },
+    {
+     "src": "photos/ferrero-5.jpg",
+     "alt": "The whole pie with one slice missing"
+    },
+    {
+     "src": "photos/ferrero-6.jpg",
+     "alt": "Lifting a slice out, seen from above"
+    }
+   ],
+   "wide": {
+    "src": "photos/ferrero-2.jpg",
+    "alt": "A slice being lifted out of the whole Ferrero Rocher pie"
+   },
+   "cats": [
+    "desserts",
+    "festive"
+   ],
+   "protein": 8,
+   "kcal": 360,
+   "per": "slice",
+   "time": "20 min + chill until set",
+   "timeShort": "20 min + chill",
+   "makes": "Makes 12",
+   "intro": "A fudgy date and hazelnut base, a silky chocolate mousse layer and a crunchy hazelnut top. The secret to that mousse? Silken tofu. No bake, no cream, just 7 ingredients.",
+   "groups": [
+    {
+     "name": "Base",
+     "items": [
+      "12 medjool dates",
+      "200g hazelnuts",
+      "½ cup almond flour",
+      "2 tbsp cocoa powder"
+     ]
+    },
+    {
+     "name": "Filling",
+     "items": [
+      "300g silken tofu (1 pack)",
+      "⅔ cup dark choc chips, melted",
+      "½ jar hazelnut butter (about 85g)"
+     ]
+    },
+    {
+     "name": "Topping",
+     "items": [
+      "⅓ cup dark choc chips, melted",
+      "¼ jar hazelnut butter (about 40g)",
+      "Chopped hazelnuts"
+     ]
+    }
+   ],
+   "method": [
+    "Blitz the dates, hazelnuts and almond flour, then add the cocoa and blitz again.",
+    "Press the mixture into your tin.",
+    "Blend the tofu, the ⅔ cup of melted chocolate and ½ jar of hazelnut butter until silky.",
+    "Spread over the base and smooth it over.",
+    "Mix the rest of the melted chocolate with ¼ jar of hazelnut butter and spread it on top.",
+    "Sprinkle with chopped hazelnuts and chill until set."
+   ],
+   "tip": "You'd never guess the mousse is made with silken tofu. Blend it until it's completely smooth for the silkiest filling.",
+   "seoTitle": "Healthyish Ferrero Rocher Pie (No Bake, Made with Tofu)",
+   "description": "A no-bake, healthyish Ferrero Rocher pie with a date and hazelnut base and a silky chocolate mousse made with silken tofu. 7 ingredients, 8g protein a slice.",
+   "datePublished": "2026-11-21",
+   "prepMinutes": 20,
+   "category": "Dessert",
+   "keywords": [
+    "healthy Ferrero Rocher pie",
+    "no bake chocolate pie",
+    "silken tofu chocolate mousse",
+    "healthy dessert"
+   ],
+   "shareFrom": "ferrero-2",
+   "draft": false
+  },
+  {
+   "kind": "post",
+   "slug": "healthy-chocolate-mousse-taste-test",
+   "title": "I Tried 6 Healthy Chocolate Mousse Recipes",
+   "seoTitle": "6 Healthy Chocolate Mousse Recipes, Ranked: Silken Tofu vs Greek Yogurt vs Cottage Cheese",
+   "description": "I tested 6 high-protein chocolate mousses: cottage cheese, Greek yogurt and silken tofu, each with dates or melted chocolate. Here's the ranking and all 6 recipes.",
+   "series": "Battle of the Chocolate Mousses",
+   "tile": "tan",
+   "tag": "Taste test",
+   "cats": [
+    "desserts"
+   ],
+   "pill": "6 recipes",
+   "timeShort": "Taste test",
+   "makes": "6 recipes ranked",
+   "intro": "I tried 6 healthy chocolate mousse recipes so you don't have to. Three high-protein bases (cottage cheese, Greek yogurt and silken tofu), each made two ways: with dates and cocoa, or with melted dark chocolate. Then I ranked them on taste, texture and protein.",
+   "tested": [
+    "Add the sweetener to each base: dates and cocoa, or melted dark chocolate and cocoa.",
+    "Blend until silky smooth.",
+    "Label and cover.",
+    "Chill overnight, then taste them side by side."
+   ],
+   "summary": [
+    [
+     "Cottage cheese",
+     "too tangy"
+    ],
+    [
+     "Greek yogurt",
+     "not dessert"
+    ],
+    [
+     "Silken tofu",
+     "something I'd actually have for dessert"
+    ]
+   ],
+   "mousses": [
+    {
+     "id": "silken-tofu-chocolate",
+     "name": "Silken tofu + chocolate",
+     "rank": 1,
+     "taste": 9.5,
+     "kcal": 400,
+     "protein": 14,
+     "per100": 3.5,
+     "items": [
+      "150g silken tofu",
+      "50g dark chocolate, melted",
+      "1 tbsp cocoa powder",
+      "½ tsp maple syrup"
+     ]
+    },
+    {
+     "id": "silken-tofu-dates",
+     "name": "Silken tofu + dates",
+     "rank": 2,
+     "taste": 9,
+     "kcal": 220,
+     "protein": 9,
+     "per100": 4.1,
+     "items": [
+      "125g silken tofu",
+      "2 medjool dates",
+      "1 tbsp cocoa powder",
+      "½ tsp maple syrup"
+     ]
+    },
+    {
+     "id": "greek-yogurt-chocolate",
+     "name": "Greek yogurt + chocolate",
+     "rank": 3,
+     "taste": 7.5,
+     "kcal": 430,
+     "protein": 20,
+     "per100": 4.7,
+     "items": [
+      "150g Greek yogurt (2%)",
+      "50g dark chocolate, melted",
+      "1 tbsp cocoa powder",
+      "½ tsp maple syrup"
+     ]
+    },
+    {
+     "id": "greek-yogurt-dates",
+     "name": "Greek yogurt + dates",
+     "rank": 4,
+     "taste": 7,
+     "kcal": 245,
+     "protein": 14,
+     "per100": 5.7,
+     "items": [
+      "125g Greek yogurt (2%)",
+      "2 medjool dates",
+      "1 tbsp cocoa powder",
+      "½ tsp maple syrup"
+     ]
+    },
+    {
+     "id": "cottage-cheese-chocolate",
+     "name": "Cottage cheese + chocolate",
+     "rank": 5,
+     "taste": 6,
+     "kcal": 465,
+     "protein": 21,
+     "per100": 4.5,
+     "items": [
+      "150g full-fat cottage cheese",
+      "50g dark chocolate, melted",
+      "1 tbsp cocoa powder",
+      "½ tsp maple syrup"
+     ]
+    },
+    {
+     "id": "cottage-cheese-dates",
+     "name": "Cottage cheese + dates",
+     "rank": 6,
+     "taste": 5.5,
+     "kcal": 275,
+     "protein": 16,
+     "per100": 5.8,
+     "items": [
+      "125g full-fat cottage cheese",
+      "2 medjool dates",
+      "1 tbsp cocoa powder",
+      "½ tsp maple syrup"
+     ]
+    }
+   ],
+   "awards": [
+    [
+     "Best texture",
+     "Silken tofu + chocolate",
+     "Texture 10/10"
+    ],
+    [
+     "Best taste",
+     "Silken tofu + chocolate",
+     "Taste 9.5/10"
+    ],
+    [
+     "Best balance",
+     "Silken tofu + dates",
+     "Taste 9/10 and the lowest kcal (220)"
+    ],
+    [
+     "Best overall",
+     "Silken tofu + chocolate",
+     "Verdict 9.5/10"
+    ]
+   ],
+   "method": "Blend until silky smooth, then chill.",
+   "tip": "Want the most protein for your calories? Cottage cheese + dates wins on macros, with 5.8g of protein per 100 kcal. For pure dessert vibes, go silken tofu + chocolate.",
+   "photos": [
+    {
+     "src": "photos/mousse-1.jpg",
+     "alt": "Six bowls of chocolate mousse with cottage cheese, Greek yogurt and silken tofu"
+    },
+    {
+     "src": "photos/mousse-2.jpg",
+     "alt": "The six chocolate mousses lined up in two rows"
+    },
+    {
+     "src": "photos/mousse-3.jpg",
+     "alt": "Six chocolate mousses ready to taste"
+    },
+    {
+     "src": "photos/mousse-4.jpg",
+     "alt": "The three bases with dates, cocoa and melted chocolate before blending"
+    }
+   ],
+   "datePublished": "2026-11-22",
+   "draft": false
+  },
+  {
+   "slug": "biscoff-banana-bread-pudding",
+   "title": "Biscoff Banana Bread Pudding",
+   "doodle": "jar",
+   "tile": "butter",
+   "tag": "4 ingredients",
+   "photos": [
+    {
+     "src": "photos/biscoff-1.jpg",
+     "alt": "A spoonful of Biscoff banana bread pudding lifted from the jar",
+     "pos": "50% 22%"
+    },
+    {
+     "src": "photos/biscoff-2.jpg",
+     "alt": "The jar from the side, showing the layers"
+    },
+    {
+     "src": "photos/biscoff-3.jpg",
+     "alt": "A spoonful of pudding with melted Biscoff on top",
+     "pos": "50% 45%"
+    },
+    {
+     "src": "photos/biscoff-4.jpg",
+     "alt": "Biscoff crumble on top of the pudding"
+    },
+    {
+     "src": "photos/biscoff-5.jpg",
+     "alt": "A spoonful lifted from the jar",
+     "pos": "50% 35%"
+    }
+   ],
+   "series": "Protein Snack Hack",
+   "cats": [
+    "desserts"
+   ],
+   "protein": 20,
+   "kcal": null,
+   "per": "jar",
+   "time": "5 min",
+   "timeShort": "5 min",
+   "makes": "Serves 1",
+   "intro": "Peak is… upgrading your daily yogurt bowl to this. Layers of Biscoff biscuit, vanilla protein pudding, banana and melted Biscoff, with 20g of protein in one jar.",
+   "groups": [
+    {
+     "name": null,
+     "items": [
+      "2½ Biscoff biscuits",
+      "1 pot GetPro vanilla protein pudding",
+      "1 banana, sliced",
+      "30g Biscoff spread, melted"
+     ]
+    }
+   ],
+   "method": [
+    "Crush the biscuits. Press some into the bottom of a jar for the base and save the rest for the top.",
+    "Spoon in a layer of the protein pudding.",
+    "Add a layer of banana slices.",
+    "Drizzle over some of the melted Biscoff.",
+    "Repeat the layers until everything is used up.",
+    "Finish with the rest of the biscuit crumble on top."
+   ],
+   "tip": "Look at those layers! Build it in a glass jar so you can see them.",
+   "seoTitle": "Biscoff Banana Bread Pudding (20g Protein, 4 Ingredients)",
+   "description": "Layers of Biscoff biscuit, vanilla protein pudding, banana and melted Biscoff in a jar. 4 ingredients, 5 minutes and 20g protein. Protein Snack Hack episode 4.",
+   "datePublished": "2026-11-21",
+   "prepMinutes": 5,
+   "category": "Dessert",
+   "keywords": [
+    "Biscoff banana pudding",
+    "high protein Biscoff dessert",
+    "protein pudding recipe",
+    "protein snack hack"
+   ],
+   "shareFrom": "biscoff-1",
+   "draft": false,
+   "seriesOrder": 4
+  },
+  {
+   "slug": "snickers-protein-yogurt-bowl",
+   "title": "Chocolate Peanut Yogurt Bowl",
+   "seoTitle": "Snickers Protein Yogurt Bowl (31g Protein, Crackable Chocolate Shell)",
+   "description": "The protein dessert that tastes like a Snickers: chocolate peanut Greek yogurt with dates under a crackable dark chocolate shell. 31g protein.",
+   "series": "Protein Snack Hack",
+   "seriesOrder": 3,
+   "tile": "peach",
+   "tag": "Tastes like a Snickers!",
+   "cats": [
+    "desserts",
+    "snacks"
+   ],
+   "protein": 31,
+   "kcal": 425,
+   "per": "bowl",
+   "time": "10 min in the freezer",
+   "timeShort": "10 min freeze",
+   "makes": "Serves 1",
+   "category": "Dessert",
+   "keywords": [
+    "snickers yogurt bowl",
+    "protein yogurt bowl",
+    "chocolate peanut yogurt",
+    "crackable chocolate shell"
+   ],
+   "intro": "The protein dessert that tastes like a Snickers! Creamy chocolate peanut yogurt with chopped dates, under a crackable dark chocolate and peanut shell. 31g of protein in one bowl.",
+   "groups": [
+    {
+     "name": "The bowl",
+     "items": [
+      "100g Greek yogurt (0% fat)",
+      "12g chocolate PB powder, plus water",
+      "18g chocolate protein powder",
+      "3 dates, chopped and split"
+     ]
+    },
+    {
+     "name": "The shell",
+     "items": [
+      "30g dark chocolate buttons",
+      "7 salted peanuts",
+      "PB drizzle (optional)"
+     ]
+    }
+   ],
+   "method": [
+    "Mix the PB powder with water into a paste.",
+    "Stir in the yogurt and protein powder until creamy.",
+    "Fold in the chopped dates and top with the split ones.",
+    "Melt the chocolate, stir in the peanuts and spread it over the top.",
+    "Freeze for 10 minutes, then crack and dig in."
+   ],
+   "tip": "Add the PB drizzle for full Snickers vibes!",
+   "photos": [
+    {
+     "src": "photos/snickers-1.jpg",
+     "alt": "A Snickers-style chocolate peanut yogurt bowl with a cracked chocolate shell and peanuts"
+    },
+    {
+     "src": "photos/snickers-2.jpg",
+     "alt": "The yogurt bowl with its chocolate shell"
+    },
+    {
+     "src": "photos/snickers-3.jpg",
+     "alt": "The chocolate shell mixed through the creamy yogurt"
+    },
+    {
+     "src": "photos/snickers-4.jpg",
+     "alt": "The chocolate shell set on top of the bowl"
+    }
+   ],
+   "datePublished": "2026-11-22",
+   "draft": false
+  },
+  {
+   "slug": "healthyish-marble-cake",
+   "title": "Healthyish Marble Cake",
+   "seoTitle": "Healthyish Marble Cake (Almond Flour, Sweetened with Apple Sauce and Honey)",
+   "description": "A healthyish chocolate marble loaf cake made with almond flour and sweetened with apple sauce and honey. 7 ingredients, one loaf tin, 6g protein a slice.",
+   "tile": "tan",
+   "tag": "7 ingredients",
+   "cats": [
+    "desserts",
+    "breakfast"
+   ],
+   "protein": 6,
+   "kcal": 160,
+   "per": "slice",
+   "time": "Bake 50 min at 170°C",
+   "timeShort": "Bake 50 min",
+   "cookMinutes": 50,
+   "makes": "Makes 8",
+   "category": "Dessert",
+   "keywords": [
+    "healthy marble cake",
+    "almond flour cake",
+    "apple sauce cake",
+    "healthy loaf cake"
+   ],
+   "intro": "Cake for breakfast? This healthyish marble cake is naturally sweetened with apple sauce and honey and made with almond flour. 7 ingredients and one loaf tin, with an optional hazelnut butter and chocolate orange topping.",
+   "groups": [
+    {
+     "name": "Batter",
+     "items": [
+      "1 cup apple sauce",
+      "3 eggs",
+      "¼ cup honey (plus more to taste)",
+      "1 cup almond flour",
+      "1 tsp baking soda, heaped",
+      "1 tsp vanilla bean extract",
+      "2 tbsp cocoa powder, heaped"
+     ]
+    },
+    {
+     "name": "Topping (optional)",
+     "items": [
+      "Hazelnut butter, to spread",
+      "Terry's chocolate orange segments, to decorate"
+     ]
+    }
+   ],
+   "method": [
+    "Whisk the apple sauce, eggs and honey.",
+    "Mix in the almond flour, baking soda and vanilla.",
+    "Halve the batter and stir the cocoa into one half.",
+    "Layer both into a lined loaf tin and swirl.",
+    "Cover with foil and bake for 50 minutes at 170°C.",
+    "Let it cool, then add the topping if you like."
+   ],
+   "tip": "It's not too sweet as it is, so add more honey to taste.",
+   "noteExtra": "Cake only, without the optional topping.",
+   "photos": [
+    {
+     "src": "photos/marble-1.jpg",
+     "alt": "A healthyish marble cake cut open to show the chocolate swirl"
+    },
+    {
+     "src": "photos/marble-2.jpg",
+     "alt": "Holding a slice of marble cake"
+    },
+    {
+     "src": "photos/marble-3.jpg",
+     "alt": "A slice of marble cake on a plate"
+    },
+    {
+     "src": "photos/marble-4.jpg",
+     "alt": "The marble cake with hazelnut butter and chocolate orange segments"
+    },
+    {
+     "src": "photos/marble-5.jpg",
+     "alt": "The whole marble loaf topped with hazelnut butter"
+    },
+    {
+     "src": "photos/marble-6.jpg",
+     "alt": "The marble cake fresh out of the oven in its tin"
+    }
+   ],
+   "datePublished": "2026-11-22",
+   "draft": false
+  },
+  {
+   "slug": "chocolate-pistachio-truffles",
+   "title": "Chocolate Pistachio Truffles",
+   "seoTitle": "Chocolate Pistachio Truffles (No Bake, 6 Ingredients)",
+   "description": "No-bake chocolate pistachio truffles: a fudgy date, tahini and cocoa centre dipped in white chocolate and pistachio cream. Makes 20, about 210 kcal each.",
+   "tile": "sage",
+   "tag": "No bake",
+   "cats": [
+    "desserts",
+    "snacks"
+   ],
+   "protein": null,
+   "kcal": 210,
+   "per": "truffle",
+   "time": "No bake, 30 min in the freezer",
+   "timeShort": "No bake",
+   "makes": "Makes 20",
+   "category": "Dessert",
+   "keywords": [
+    "pistachio truffles",
+    "healthy chocolate truffles",
+    "no bake date truffles",
+    "pistachio cream"
+   ],
+   "intro": "The no-bake treat that tastes like a truffle! A fudgy chocolate centre that you'd never guess is made from dates and tahini, dipped in a white chocolate and pistachio coating. 6 ingredients, no oven.",
+   "groups": [
+    {
+     "name": "Chocolate base",
+     "items": [
+      "400g dates, soaked",
+      "240ml tahini",
+      "12 tbsp cocoa powder",
+      "½ tsp salt"
+     ]
+    },
+    {
+     "name": "Pistachio coating",
+     "items": [
+      "40g white chocolate (about 20 giant buttons)",
+      "200g pistachio cream",
+      "Chopped pistachios, to sprinkle"
+     ]
+    }
+   ],
+   "method": [
+    "Soak the dates in boiling water, then drain.",
+    "Blend the dates and tahini, then add the cocoa and salt.",
+    "Roll into 20 balls and freeze for 30 minutes.",
+    "Melt the white chocolate and stir in the pistachio cream.",
+    "Dip each ball, let it drip, then sprinkle with chopped pistachios."
+   ],
+   "tip": "Use medjool dates for extra sweetness!",
+   "photos": [
+    {
+     "src": "photos/pistachio-1.jpg",
+     "alt": "A chocolate pistachio truffle broken open to show the fudgy centre",
+     "pos": "50% 55%"
+    },
+    {
+     "src": "photos/pistachio-2.jpg",
+     "alt": "Holding a chocolate pistachio truffle over the batch"
+    },
+    {
+     "src": "photos/pistachio-3.jpg",
+     "alt": "A plate of chocolate pistachio truffles"
+    }
+   ],
+   "datePublished": "2026-11-22",
+   "draft": false
+  },
+  {
+   "slug": "caramel-almond-crunch-bowl",
+   "title": "Caramel Almond Crunch Bowl",
+   "seoTitle": "Caramel Almond Crunch Bowl (25g Protein, 3 Ingredients)",
+   "description": "A 3-ingredient protein breakfast: Greek yogurt with a Pip & Nut caramel almond protein bar turned into crunchy granola and almond butter clusters, plus red grapes. About 25g protein.",
+   "series": "Protein Snack Hack",
+   "seriesOrder": 5,
+   "tile": "butter",
+   "tag": "3 ingredients",
+   "cats": [
+    "breakfast",
+    "snacks"
+   ],
+   "protein": 25,
+   "kcal": null,
+   "per": "bowl",
+   "time": "5 min",
+   "timeShort": "5 min",
+   "prepMinutes": 5,
+   "makes": "Serves 1",
+   "category": "Breakfast",
+   "keywords": [
+    "protein yogurt bowl",
+    "pip and nut protein bar",
+    "high protein breakfast",
+    "almond butter clusters"
+   ],
+   "intro": "POV: you upgraded your breakfast with only 3 ingredients. Greek yogurt, a Pip & Nut caramel almond protein bar taken apart into crunchy granola and almond butter clusters, and juicy red grapes.",
+   "groups": [
+    {
+     "name": null,
+     "items": [
+      "150g Fage Greek yogurt",
+      "1 Pip & Nut caramel almond protein bar, layers separated",
+      "A handful of red grapes, halved"
+     ]
+    }
+   ],
+   "method": [
+    "Spoon the yogurt into a bowl.",
+    "Peel the nut butter top off the base.",
+    "Crumble the base over the yogurt.",
+    "Halve the grapes and arrange them round the edge.",
+    "Microwave the nut butter top for 30 seconds, then roll it into little balls.",
+    "Pile the clusters in the middle and dig in."
+   ],
+   "tip": "Mix it all together for creamy, crunchy, juicy bites!",
+   "photos": [
+    {
+     "src": "photos/caramelbowl-1.jpg",
+     "alt": "A spoonful of yogurt with an almond butter cluster over the caramel almond crunch bowl"
+    },
+    {
+     "src": "photos/caramelbowl-2.jpg",
+     "alt": "A spoonful with a halved grape and an almond butter cluster"
+    },
+    {
+     "src": "photos/caramelbowl-3.jpg",
+     "alt": "The three ingredients: a Pip & Nut bar, Fage yogurt and red grapes"
+    }
+   ],
+   "datePublished": "2026-11-22",
+   "draft": false
+  },
+  {
+   "slug": "protein-coffee-frappuccino",
+   "title": "Protein Coffee Frappuccino",
+   "seoTitle": "Protein Coffee Frappuccino (25g Protein, 150 kcal)",
+   "description": "A thick, frothy protein coffee frappuccino with espresso, vanilla protein powder and almond milk. 25g protein and 150 kcal, with a mocha version.",
+   "tile": "cream",
+   "tag": "Blender",
+   "cats": [
+    "drinks",
+    "breakfast"
+   ],
+   "protein": 25,
+   "kcal": 150,
+   "carbs": 3,
+   "fat": 4,
+   "per": "glass",
+   "time": "Blend until thick",
+   "timeShort": "Blender",
+   "makes": "Serves 1",
+   "category": "Drink",
+   "keywords": [
+    "protein frappuccino",
+    "protein coffee",
+    "high protein iced coffee",
+    "protein shake coffee"
+   ],
+   "intro": "Your coffee shop frappuccino, made at home with 25g of protein. Espresso, vanilla protein powder, almond milk and ice, blended until thick and frothy.",
+   "groups": [
+    {
+     "name": null,
+     "items": [
+      "1 shot espresso",
+      "1 scoop vanilla protein powder",
+      "200ml unsweetened almond milk",
+      "Ice cubes"
+     ]
+    },
+    {
+     "name": "Optional",
+     "items": [
+      "Vanilla sweetener",
+      "1 tsp chia seeds, or a pinch of xanthan gum"
+     ]
+    }
+   ],
+   "method": [
+    "Add everything to a blender.",
+    "Blend until thick and frothy."
+   ],
+   "tip": "Fancy a mocha? Use chocolate protein powder and chocolate almond milk instead. That makes it about 185 kcal.",
+   "noteExtra": "Excludes the optional add-ins.",
+   "photos": [
+    {
+     "src": "photos/frappuccino-1.jpg",
+     "alt": "A glass of protein coffee frappuccino"
+    }
+   ],
+   "datePublished": "2026-11-22",
+   "draft": false
+  },
+  {
+   "slug": "brownie-batter-ninja-creami",
+   "title": "Brownie Batter Ninja Creami",
+   "seoTitle": "Brownie Batter Ninja Creami (Banana Ice Cream, No Protein Powder)",
+   "description": "Tastes like brownie batter: banana and cocoa Ninja Creami ice cream with PBfit and a crumbled chocolate cake mix-in. About 200 kcal and 9g protein a serving.",
+   "doodle": "mug",
+   "tile": "tan",
+   "tag": "Ninja Creami",
+   "cats": [
+    "desserts"
+   ],
+   "protein": 9,
+   "kcal": 200,
+   "per": "serving",
+   "time": "Blend, then freeze overnight",
+   "timeShort": "Freeze overnight",
+   "makes": "Serves 4",
+   "category": "Dessert",
+   "keywords": [
+    "brownie batter ninja creami",
+    "healthy ninja creami recipe",
+    "banana cocoa ice cream",
+    "no protein powder ice cream"
+   ],
+   "intro": "Tastes like brownie batter! A banana and cocoa ice cream made in the Ninja Creami, with crumbled chocolate cake spun through. The base is all natural ingredients: no protein powder, no gums and no artificial sweeteners.",
+   "groups": [
+    {
+     "name": null,
+     "items": [
+      "3 large bananas",
+      "40g cocoa powder",
+      "20g PBfit peanut powder",
+      "150ml SuperNutrio milk, or to the fill line",
+      "Maple syrup (optional)",
+      "1 Fibre One chocolate cake bar (optional)"
+     ]
+    }
+   ],
+   "method": [
+    "Blend everything, then freeze overnight in the Creami tub.",
+    "Spin on the gelato setting.",
+    "Add the crumbled cake and spin on the mix-in setting."
+   ],
+   "tip": "No Creami? Freeze sliced bananas, then blend it all in a food processor until creamy. Any high-protein milk works.",
+   "photos": [
+    {
+     "src": "photos/brownie-1.jpg",
+     "alt": "A scoop of brownie batter Ninja Creami ice cream with chunks of chocolate cake",
+     "pos": "50% 55%"
+    },
+    {
+     "src": "photos/brownie-2.jpg",
+     "alt": "A bowl of brownie batter ice cream with a spoon",
+     "pos": "50% 55%"
+    }
+   ],
+   "datePublished": "2026-11-22",
+   "draft": false
+  },
+  {
+   "slug": "oreo-cheesecake-ninja-creami",
+   "title": "Oreo Cheesecake Ninja Creami",
+   "seoTitle": "Oreo Cheesecake Ninja Creami (Cottage Cheese Ice Cream)",
+   "description": "High-protein Oreo cheesecake ice cream made in the Ninja Creami with cottage cheese, banana and maple. No protein powder, about 140 kcal and 7g protein a serving.",
+   "doodle": "mug",
+   "tile": "cream",
+   "tag": "Ninja Creami",
+   "cats": [
+    "desserts"
+   ],
+   "protein": 7,
+   "kcal": 140,
+   "per": "serving",
+   "time": "Blend, then freeze overnight",
+   "timeShort": "Freeze overnight",
+   "makes": "Serves 4",
+   "category": "Dessert",
+   "keywords": [
+    "oreo cheesecake ninja creami",
+    "cottage cheese ice cream",
+    "healthy ninja creami recipe",
+    "no protein powder ice cream"
+   ],
+   "intro": "Creamy and dreamy, just like Oreo cheesecake. The base is 5 simple ingredients with no protein powder and no artificial sweeteners, just banana and maple.",
+   "groups": [
+    {
+     "name": null,
+     "items": [
+      "200g cottage cheese",
+      "1 ripe banana",
+      "2 tbsp maple syrup",
+      "1 tsp vanilla extract",
+      "Almond milk, to the max fill line",
+      "3 Oreos, crushed"
+     ]
+    }
+   ],
+   "method": [
+    "Blend it all, then top up with almond milk to the max fill line.",
+    "Freeze overnight in the Creami tub.",
+    "Spin on the lite ice cream setting.",
+    "Add the crushed Oreos and spin on the mix-in setting."
+   ],
+   "tip": "No Creami? Blend everything and freeze it in a tub, then add the Oreos and re-blend before serving.",
+   "photos": [
+    {
+     "src": "photos/oreo-1.jpg",
+     "alt": "A tub of Oreo cheesecake ice cream with a spoon and Oreos on the side",
+     "pos": "50% 55%"
+    }
+   ],
+   "datePublished": "2026-11-22",
+   "draft": false
+  },
+  {
+   "slug": "blueberry-protein-froyo",
+   "title": "Blueberry Protein Froyo",
+   "seoTitle": "Blueberry Protein Froyo (18g Protein, No Ice Cream Maker)",
+   "description": "Greek yoghurt froyo with frozen blueberries under a crackable white chocolate and almond shell. 18g protein, about 230 kcal, no ice cream maker needed.",
+   "series": "Protein Snack Hack",
+   "doodle": "pots",
+   "tile": "peach",
+   "tag": "No ice cream maker",
+   "cats": [
+    "snacks",
+    "desserts"
+   ],
+   "protein": 18,
+   "kcal": 230,
+   "carbs": 20,
+   "per": "pot",
+   "time": "5 min + 10 min in the freezer",
+   "timeShort": "10 min freeze",
+   "makes": "Serves 1",
+   "category": "Dessert",
+   "keywords": [
+    "protein froyo",
+    "greek yoghurt frozen yoghurt",
+    "blueberry froyo",
+    "high protein snack"
+   ],
+   "intro": "POV: froyo's trending again and you're not paying £10 a tub. Greek yoghurt swirled with frozen blueberries under a white chocolate shell you crack into. Creamy, crunchy, and no ice cream maker needed.",
+   "groups": [
+    {
+     "name": null,
+     "items": [
+      "150g Fage Total 0% Greek yoghurt",
+      "40g frozen blueberries",
+      "15g Milkybar buttons (about 9)",
+      "7 almonds",
+      "Honey or stevia drops (optional)"
+     ]
+    }
+   ],
+   "method": [
+    "Sweeten the yoghurt, if you like.",
+    "Swirl in the frozen blueberries.",
+    "Melt the buttons and stir in the almonds.",
+    "Spread the topping over the yoghurt and freeze for 10+ minutes.",
+    "Crack it, mix it up and enjoy!"
+   ],
+   "tip": "The Greek yoghurt gives you 15g of protein to keep you full, and the white chocolate is the treat bit: just 15g. The numbers leave out the optional sweetener.",
+   "photos": [
+    {
+     "src": "photos/froyo-1.jpg",
+     "alt": "A pot of blueberry froyo with a white chocolate and almond topping",
+     "pos": "45% 45%"
+    }
+   ],
+   "datePublished": "2026-11-22",
+   "draft": false,
+   "seriesOrder": 3.5
+  },
+  {
+   "slug": "mango-cheesecake-protein-pot",
+   "title": "Mango Cheesecake Protein Pot",
+   "seoTitle": "Mango Cheesecake Protein Pot (13g Protein, Ready in 2 Minutes)",
+   "description": "The 13g protein snack that tastes like mango cheesecake: mango cottage cheese, frozen mango and a sprinkle of seeds. 3 ingredients, ready in 2 minutes.",
+   "series": "Protein Snack Hack",
+   "doodle": "jar",
+   "tile": "butter",
+   "tag": "Ready in 2 mins",
+   "cats": [
+    "snacks"
+   ],
+   "protein": 13,
+   "kcal": 200,
+   "per": "pot",
+   "time": "2 min",
+   "timeShort": "2 min",
+   "prepMinutes": 2,
+   "makes": "Serves 1",
+   "category": "Snack",
+   "keywords": [
+    "mango cheesecake protein pot",
+    "cottage cheese snack",
+    "high protein snack",
+    "mango cottage cheese"
+   ],
+   "intro": "The 13g protein snack that tastes like mango cheesecake! Three ingredients, ready in 2 minutes.",
+   "groups": [
+    {
+     "name": null,
+     "items": [
+      "½ pot All Things mango cottage cheese (120g)",
+      "70g frozen mango chunks",
+      "5g Aldi 4 seed mix (about 1 tsp)"
+     ]
+    }
+   ],
+   "method": [
+    "Start with half a pot (120g) of the cottage cheese.",
+    "Add the frozen mango chunks.",
+    "Mix it all together.",
+    "Sprinkle the seeds on top and enjoy!"
+   ],
+   "tip": "The cottage cheese brings the protein and live cultures, the frozen mango adds vitamin C and fibre, and the linseed and hemp in the seed mix add omega-3s and crunch.",
+   "photos": [
+    {
+     "src": "photos/mango-1.jpg",
+     "alt": "A pot of mango cottage cheese topped with mango chunks and seeds",
+     "pos": "45% 40%"
+    }
+   ],
+   "datePublished": "2026-11-22",
+   "draft": false,
+   "seriesOrder": 1
+  },
+  {
+   "slug": "pre-run-protein-toast",
+   "title": "Pre-Run Protein Toast",
+   "seoTitle": "Pre-Run Protein Toast with Cottage Cheese, Dates and Honey",
+   "description": "The perfect pre- and post-run snack: sourdough with smashed dates, cottage cheese and honey, air fried for 2 minutes. 17g protein and 60g carbs.",
+   "series": "Protein Snack Hack",
+   "doodle": "toast",
+   "tile": "butter",
+   "tag": "Air fryer",
+   "cats": [
+    "breakfast",
+    "snacks"
+   ],
+   "protein": 17,
+   "kcal": 350,
+   "carbs": 60,
+   "per": "slice",
+   "time": "5 min (2 in the air fryer)",
+   "timeShort": "5 min",
+   "prepMinutes": 3,
+   "cookMinutes": 2,
+   "makes": "Serves 1",
+   "category": "Snack",
+   "keywords": [
+    "pre run snack",
+    "cottage cheese toast",
+    "high protein toast",
+    "post run snack"
+   ],
+   "intro": "The ultimate pre-run snack: cottage cheese toast. Sourdough and dates fuel your run, cottage cheese keeps you full, and it works just as well after your run. Shout out to Finks Bakery (@finks.london) for the sourdough.",
+   "groups": [
+    {
+     "name": null,
+     "items": [
+      "60g slice of sourdough",
+      "4 soft pitted dates",
+      "100g low-fat cottage cheese",
+      "1 tsp honey"
+     ]
+    }
+   ],
+   "method": [
+    "Slice the sourdough.",
+    "Smash the dates onto the toast.",
+    "Spoon over the cottage cheese.",
+    "Air fry for 2 minutes at 180°C.",
+    "Drizzle with honey and enjoy."
+   ],
+   "tip": "More time? Soak the dates in boiling water for 3–5 minutes for a jammy texture.",
+   "photos": [
+    {
+     "src": "photos/toast-1.jpg",
+     "alt": "A slice of cottage cheese toast with dates, honey and cinnamon",
+     "pos": "45% 50%"
+    }
+   ],
+   "datePublished": "2026-11-22",
+   "draft": false,
+   "seriesOrder": 2
+  },
+  {
+   "slug": "chocolate-apple-cups",
+   "title": "Chocolate Apple Cups",
+   "seoTitle": "Chocolate Apple Cups (No Bake, with a Date \"Caramel\")",
+   "description": "No-bake chocolate apple cups with a soft date and crunchy almond butter centre, topped with seeds. Makes 6, about 280 kcal each.",
+   "series": "Apple a Day",
+   "seriesOrder": 1,
+   "tile": "peach",
+   "tag": "No bake",
+   "cats": [
+    "desserts",
+    "snacks"
+   ],
+   "protein": null,
+   "kcal": 280,
+   "per": "cup",
+   "time": "No bake, 30 min in the fridge",
+   "timeShort": "No bake",
+   "makes": "Makes 6",
+   "category": "Dessert",
+   "keywords": [
+    "chocolate apple cups",
+    "healthy apple dessert",
+    "date caramel",
+    "no bake apple recipe"
+   ],
+   "intro": "Apple season is here! Melted dark chocolate cups filled with a soft date, crunchy almond butter and chopped apple, then covered in more chocolate. The \"caramel\" is just a date.",
+   "groups": [
+    {
+     "name": null,
+     "items": [
+      "180g dark chocolate buttons, melted",
+      "6 soft pitted dates",
+      "1 apple, chopped",
+      "Crunchy almond butter, a dollop each",
+      "4-seed mix, to sprinkle"
+     ]
+    }
+   ],
+   "method": [
+    "Spoon chocolate into 6 muffin cases.",
+    "Add a date and a dollop of almond butter to each.",
+    "Pile on the apple, then cover with chocolate.",
+    "Sprinkle with seeds and chill for 30 minutes in the fridge.",
+    "Peel off the cases and enjoy."
+   ],
+   "tip": "Keep them in the fridge!",
+   "photos": [
+    {
+     "src": "photos/applecups-1.jpg",
+     "alt": "A plate of chocolate apple cups topped with seeds"
+    },
+    {
+     "src": "photos/applecups-2.jpg",
+     "alt": "A chocolate apple cup bitten in half to show the date and almond butter"
+    },
+    {
+     "src": "photos/applecups-3.jpg",
+     "alt": "Holding a bitten chocolate apple cup"
+    },
+    {
+     "src": "photos/applecups-4.jpg",
+     "alt": "The almond butter and date centre of a chocolate apple cup"
+    },
+    {
+     "src": "photos/applecups-5.jpg",
+     "alt": "A chocolate apple cup up close"
+    },
+    {
+     "src": "photos/applecups-6.jpg",
+     "alt": "Chocolate apple cups setting in a muffin tin"
+    }
+   ],
+   "datePublished": "2026-11-22",
+   "draft": false
+  },
+  {
+   "slug": "viral-apple-salad",
+   "title": "Viral Apple Salad",
+   "seoTitle": "Viral Apple Salad with Date Caramel (14g Protein)",
+   "description": "The viral apple salad with a magic date caramel: green apple, Greek yogurt, almond butter and chocolate chips in a jar. About 360 kcal and 14g protein.",
+   "series": "Apple a Day",
+   "seriesOrder": 2,
+   "tile": "sage",
+   "tag": "No bake",
+   "cats": [
+    "breakfast",
+    "snacks"
+   ],
+   "protein": 14,
+   "kcal": 360,
+   "per": "jar",
+   "time": "No cook",
+   "timeShort": "No cook",
+   "makes": "Serves 1",
+   "category": "Breakfast",
+   "keywords": [
+    "viral apple salad",
+    "apple yogurt jar",
+    "date caramel",
+    "healthy apple snack"
+   ],
+   "intro": "The viral apple salad with a magic date caramel. Crunchy green apple, Greek yogurt, almond butter and chocolate chips in a jar: lid on, shake, stir and dig in.",
+   "groups": [
+    {
+     "name": "Date caramel",
+     "items": [
+      "1 date and 10ml tahini per spoonful, blended"
+     ]
+    },
+    {
+     "name": "The salad",
+     "items": [
+      "1 green apple, chopped",
+      "3 heaped tbsp 2% Greek yogurt",
+      "1 tsp crunchy almond butter",
+      "1 tsp date caramel",
+      "1.5 tsp chocolate chips",
+      "Cinnamon, to dust"
+     ]
+    }
+   ],
+   "method": [
+    "Blend the dates and tahini into a caramel.",
+    "Chop the apple into a jar.",
+    "Add the yogurt, almond butter and caramel.",
+    "Top with the chocolate chips and cinnamon.",
+    "Lid on, shake, stir and dig in."
+   ],
+   "tip": "Make a big jar for the whole week!",
+   "photos": [
+    {
+     "src": "photos/applesalad-1.jpg",
+     "alt": "The viral apple salad layered in a jar"
+    },
+    {
+     "src": "photos/applesalad-2.jpg",
+     "alt": "A spoonful of apple salad lifted from the jar"
+    },
+    {
+     "src": "photos/applesalad-3.jpg",
+     "alt": "The apple salad mixed up in the jar"
+    },
+    {
+     "src": "photos/applesalad-4.jpg",
+     "alt": "A spoon in the apple salad jar"
+    }
+   ],
+   "datePublished": "2026-11-22",
+   "draft": false
+  },
+  {
+   "slug": "apple-brownie-for-one",
+   "title": "Apple Brownie for One",
+   "seoTitle": "2-Ingredient Apple Brownie for One (Air Fryer)",
+   "description": "A fudgy brownie for one made with just 2 ingredients: an air-fried apple and dark chocolate. About 395 kcal.",
+   "series": "Apple a Day",
+   "seriesOrder": 3,
+   "tile": "cream",
+   "tag": "2 ingredients",
+   "cats": [
+    "desserts"
+   ],
+   "protein": 4,
+   "kcal": 395,
+   "carbs": 48,
+   "fat": 22,
+   "fibre": 10,
+   "per": "brownie",
+   "time": "15 min air fry + 15 min chill",
+   "timeShort": "30 min",
+   "cookMinutes": 15,
+   "makes": "Serves 1",
+   "category": "Dessert",
+   "keywords": [
+    "2 ingredient brownie",
+    "apple brownie",
+    "air fryer brownie",
+    "healthy brownie for one"
+   ],
+   "intro": "A fudgy brownie for one with just 2 ingredients: an apple and dark chocolate. The apple goes in the air fryer, then gets blitzed with melted chocolate until smooth and fudgy.",
+   "groups": [
+    {
+     "name": null,
+     "items": [
+      "1 apple, chopped",
+      "50g dark chocolate, melted",
+      "A walnut, to top (optional)"
+     ]
+    }
+   ],
+   "method": [
+    "Air fry the apple for 15 minutes at 190°C.",
+    "Melt the chocolate and pour it over the apple.",
+    "Blitz until smooth and fudgy.",
+    "Press into a silicone mould.",
+    "Chill for 15 minutes in the fridge, or 5 in the freezer.",
+    "Turn it out, top with a walnut and enjoy."
+   ],
+   "tip": "In a rush? 5 minutes in the freezer!",
+   "noteExtra": "Estimate with 70% dark chocolate.",
+   "photos": [
+    {
+     "src": "photos/applebrownie-1.jpg",
+     "alt": "A 2-ingredient apple brownie topped with a walnut"
+    }
+   ],
+   "datePublished": "2026-11-22",
+   "draft": false
+  },
+  {
+   "slug": "rice-paper-apple-pie",
+   "title": "Rice Paper Apple Pie",
+   "seoTitle": "Rice Paper Apple Pie (Air Fryer, About 160 kcal)",
+   "description": "Crunchy air fryer apple pies made with rice paper: jammy cinnamon apple, maple syrup and walnuts. Makes 2, about 160 kcal each.",
+   "series": "Apple a Day",
+   "seriesOrder": 4,
+   "tile": "tan",
+   "tag": "Air fryer",
+   "cats": [
+    "desserts"
+   ],
+   "protein": null,
+   "kcal": 160,
+   "per": "pie",
+   "time": "Air fry 12 min at 200°C",
+   "timeShort": "Air fryer",
+   "cookMinutes": 12,
+   "makes": "Makes 2",
+   "category": "Dessert",
+   "keywords": [
+    "rice paper apple pie",
+    "air fryer apple pie",
+    "healthy apple pie",
+    "rice paper dessert"
+   ],
+   "intro": "The easiest, lightest apple pie you'll ever eat. Jammy cinnamon apple wrapped in rice paper, brushed with maple syrup and air fried until it's crunchy outside and soft inside.",
+   "groups": [
+    {
+     "name": null,
+     "items": [
+      "1 apple, cubed",
+      "Cinnamon and a little cornflour",
+      "Maple syrup (to cook, brush and drizzle)",
+      "2 rice paper sheets",
+      "2 walnuts, chopped, to top",
+      "Greek yogurt, for protein"
+     ]
+    }
+   ],
+   "method": [
+    "Cook the apple with maple syrup, cinnamon and cornflour until sticky.",
+    "Soften the rice paper and wrap up the filling.",
+    "Brush with maple syrup.",
+    "Air fry for 12 minutes at 200°C.",
+    "Drizzle with maple syrup and top with walnuts.",
+    "Serve with Greek yogurt."
+   ],
+   "tip": "Vanilla protein yogurt works too!",
+   "noteExtra": "Excludes the yogurt. Add 100g Greek yogurt for +10g protein.",
+   "photos": [
+    {
+     "src": "photos/ricepaper-1.jpg",
+     "alt": "Two rice paper apple pies with Greek yogurt, walnuts and maple syrup"
+    },
+    {
+     "src": "photos/ricepaper-2.jpg",
+     "alt": "The jammy apple inside a rice paper apple pie"
+    }
+   ],
+   "datePublished": "2026-11-22",
+   "draft": false
+  },
+  {
+   "slug": "apple-crumble-breakfast-oats",
+   "title": "Apple Crumble Breakfast Oats",
+   "seoTitle": "Apple Crumble Breakfast Oats (21g Protein)",
+   "description": "Apple crumble for breakfast: warm cinnamon apple, a crunchy almond oat crumble and vanilla protein yogurt layered in a jar. About 320 kcal and 21g protein.",
+   "series": "Apple a Day",
+   "seriesOrder": 5,
+   "tile": "apricot",
+   "tag": "Breakfast",
+   "cats": [
+    "breakfast"
+   ],
+   "protein": 21,
+   "kcal": 320,
+   "per": "jar",
+   "time": "Cook, toast, then layer",
+   "timeShort": "Stovetop",
+   "makes": "Serves 1",
+   "category": "Breakfast",
+   "keywords": [
+    "apple crumble oats",
+    "protein breakfast jar",
+    "apple crumble breakfast",
+    "high protein oats"
+   ],
+   "intro": "Apple crumble… for breakfast?! Warm cinnamon apple, a crunchy almond and oat crumble and vanilla protein yogurt, layered in a jar. Like dessert for breakfast.",
+   "groups": [
+    {
+     "name": null,
+     "items": [
+      "1 apple, chopped, plus cinnamon",
+      "15g oats",
+      "5g flaked almonds",
+      "½ tbsp maple syrup, plus cinnamon",
+      "½ tbsp almond flour",
+      "1 tbsp Greek yogurt",
+      "Vanilla protein powder (optional)"
+     ]
+    },
+    {
+     "name": "To top",
+     "items": [
+      "1 pot GetPro vanilla protein yogurt, or any yogurt plus protein powder",
+      "Cinnamon"
+     ]
+    }
+   ],
+   "method": [
+    "Cook the apple with cinnamon until soft.",
+    "Toast the oats and almonds, then add the maple syrup.",
+    "Stir in the almond flour and yogurt to make clumps.",
+    "Layer the apple, crumble and protein yogurt.",
+    "Dust with cinnamon, lid on and enjoy."
+   ],
+   "tip": "Make double the crumble for tomorrow!",
+   "noteExtra": "Estimate with GetPro vanilla protein yogurt.",
+   "photos": [
+    {
+     "src": "photos/crumble-1.jpg",
+     "alt": "Apple crumble breakfast oats layered in a jar with cinnamon on top"
+    },
+    {
+     "src": "photos/crumble-2.jpg",
+     "alt": "The apple, crumble and yogurt layers in the jar"
+    },
+    {
+     "src": "photos/crumble-3.jpg",
+     "alt": "A spoonful of apple crumble breakfast oats"
+    }
+   ],
+   "datePublished": "2026-11-22",
+   "draft": false
+  }
+ ],
+ "series": {
+  "protein-snack-hack": {
+   "name": "Protein Snack Hack",
+   "intro": "Classic snacks and treats, made higher protein. Quick to make, with supermarket ingredients and the protein on every recipe."
+  },
+  "apple-a-day": {
+   "name": "Apple a Day",
+   "intro": "My Apple a Day series for apple season: five apple recipes, from chocolate apple cups to apple crumble for breakfast."
+  }
+ }
+}
