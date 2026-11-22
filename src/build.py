@@ -213,9 +213,9 @@ def head(title, desc, canonical, prefix, image, structured, og_type="website"):
 {FILTERS}
 <header class="nav">
   <div class="wrap">
-    <a class="brand" href="{prefix or './'}"><img src="{prefix}logo.png" alt="" width="40" height="40"><span>The Better Bite</span></a>
+    <a class="brand" href="{prefix or './'}"><img src="{prefix}logo.png" alt="" width="40" height="40"><span>The Better Bite <em class="by">by Em</em></span></a>
     <nav class="nav-links" aria-label="Main">
-      <a href="{prefix}#recipes">Recipes</a>
+      <a class="nav-recipes" href="{prefix}#recipes">Recipes</a>
       <a class="nav-about" href="{prefix}#about">About</a>
       <a href="{SITE['instagram']}" target="_blank" rel="noopener">Instagram ↗</a>
     </nav>
@@ -228,7 +228,7 @@ def foot(prefix):
     return f"""
 <footer>
   <div class="wrap">
-    <a class="brand" href="{prefix or './'}"><img src="{prefix}logo.png" alt="" width="32" height="32"><span>The Better Bite</span></a>
+    <a class="brand" href="{prefix or './'}"><img src="{prefix}logo.png" alt="" width="32" height="32"><span>The Better Bite <em class="by">by Em</em></span></a>
     <span>© {datetime.date.today().year} The Better Bite by Em. Protein and calories are estimates and vary by brand.</span>
   </div>
 </footer>
@@ -311,7 +311,7 @@ def build_home():
       <div class="about">
         <div>
           <p class="welcome">Nice to meet you!</p>
-          <h2 id="about-title">About The Better Bite</h2>
+          <h2 id="about-title">About The Better Bite <em class="by">by Em</em></h2>
           <p>I'm Em, and I make high-protein versions of the snacks and sweet things I actually want to eat. Everything here uses ingredients from a normal supermarket shop, and every recipe lists the protein or calories per serving so it's easy to fit into your day.</p>
           <ul class="pillars" aria-label="What The Better Bite covers">
             <li>{icon('bar')}Protein finds</li>
