@@ -39,3 +39,8 @@ Style notes: names and headings start with a capital letter; Em's recipes put pr
 - `index.html`, `recipes/*/index.html`, `sitemap.xml`, `robots.txt`, `404.html`, `CNAME`: made by `src/build.py`, so don't edit them by hand
 - `assets/site.css`, `assets/site.js`: shared styles and the small scripts (filters, photo gallery, copy shopping list)
 - `src/art.json`: the hand-drawn icons and placeholder drawings
+
+## Contact and link-in-bio page
+
+- Em's email is `site.email` in `src/recipes.json`; it appears in the Get in touch section, the footer and the links page.
+- `links/index.html` (thebetterbitebyem.co.uk/links) is the page in Em's Instagram bio: a 3-column photo grid of every recipe in the same order as `src/recipes.json`. It's built automatically and marked noindex.

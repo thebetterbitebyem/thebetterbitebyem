@@ -65,6 +65,10 @@ def ld(obj):
 
 # ---------- Small drawings ----------
 
+ART["icons"].setdefault("mail", '<rect class="il f-white" x="2.5" y="5" width="19" height="14" rx="2.5"/><path class="il o" d="M3.5 6.5l8.5 6.5 8.5-6.5"/>')
+ART["icons"].setdefault("chat", '<path class="il f-peach" d="M4 5h16a1.5 1.5 0 0 1 1.5 1.5v9A1.5 1.5 0 0 1 20 17h-9l-4.5 3.5V17H4a1.5 1.5 0 0 1-1.5-1.5v-9A1.5 1.5 0 0 1 4 5z"/><circle class="f-ink" cx="8" cy="11" r="1.1"/><circle class="f-ink" cx="12" cy="11" r="1.1"/><circle class="f-ink" cx="16" cy="11" r="1.1"/>')
+
+
 def icon(name):
     return f'<svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g filter="url(#wobble-s)">{ART["icons"][name]}</g></svg>'
 
@@ -190,7 +194,7 @@ def verify_tag(canonical):
     return ""
 
 
-def head(title, desc, canonical, prefix, image, structured, og_type="website"):
+def head(title, desc, canonical, prefix, image, structured, og_type="website", nav=True):
     return f"""<!DOCTYPE html>
 <html lang="en-GB" class="no-js">
 <head>
@@ -219,7 +223,11 @@ def head(title, desc, canonical, prefix, image, structured, og_type="website"):
 </head>
 <body>
 {FILTERS}
-<header class="nav">
+{nav_html(prefix) if nav else ""}"""
+
+
+def nav_html(prefix):
+    return f"""<header class="nav">
   <div class="wrap">
     <a class="brand" href="{prefix or './'}"><img src="{prefix}logo.png" alt="" width="40" height="40"><span>The Better Bite <em class="by">by Em</em></span></a>
     <nav class="nav-links" aria-label="Main">
@@ -228,8 +236,7 @@ def head(title, desc, canonical, prefix, image, structured, og_type="website"):
       <a href="{SITE['instagram']}" target="_blank" rel="noopener">Instagram ↗</a>
     </nav>
   </div>
-</header>
-"""
+</header>"""
 
 
 def foot(prefix):
@@ -237,6 +244,7 @@ def foot(prefix):
 <footer>
   <div class="wrap">
     <a class="brand" href="{prefix or './'}"><img src="{prefix}logo.png" alt="" width="32" height="32"><span>The Better Bite <em class="by">by Em</em></span></a>
+    <span class="foot-links"><a href="mailto:{SITE['email']}">{SITE['email']}</a> · <a href="{SITE['instagram']}" target="_blank" rel="noopener">@thebetterbitebyem</a></span>
     <span>© {datetime.date.today().year} The Better Bite by Em. Protein and calories are estimates and vary by brand.</span>
   </div>
 </footer>
@@ -336,6 +344,20 @@ def build_home():
           {series_item('food-myths', 'myth', 'Food Myths: True or False?', 'Swipe to test yourself')}
           {series_item('snack-reviews', 'star', 'Snack Reviews', 'Honest ratings, scored out of 10')}
         </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section" aria-labelledby="contact-title">
+      <div class="contact">
+        <div>
+          <p class="welcome">Say hi!</p>
+          <h2 id="contact-title">Get in touch</h2>
+          <p>For collabs and brand work, questions about a recipe, or just to tell me you made something, drop me an email or send me a DM on Instagram.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="contact-card" href="mailto:{SITE['email']}">{icon('mail')}<span><b>Email</b>{SITE['email'].replace('@', '@<wbr>')}</span></a>
+          <a class="contact-card" href="{SITE['instagram']}" target="_blank" rel="noopener">{icon('chat')}<span><b>Instagram DMs</b>@thebetterbitebyem</span></a>
+        </div>
       </div>
     </section>
   </div>
@@ -603,6 +625,41 @@ def build_series(slug, s):
     return True
 
 
+# ---------- Link-in-bio page ----------
+
+def build_links():
+    prefix = "../"
+    tiles = "".join(
+        f'<a class="ltile" href="{prefix}recipes/{r["slug"]}/">'
+        f'<span class="limg">{photo(r["photos"][0], prefix) if r.get("photos") else doodle(r["doodle"])}</span>'
+        f'<span class="lname">{esc(r["title"])}</span></a>'
+        for r in ENTRIES)
+    out = head("The Better Bite by Em | Recipes from Instagram",
+               "Tap a photo to get the recipe. High-protein recipes by Em from @thebetterbitebyem.",
+               URL + "/links/", prefix, URL + "/logo.png", '<meta name="robots" content="noindex">', nav=False)
+    out += f"""
+<main class="links-page">
+  <div class="wrap">
+    <header class="links-head">
+      <img src="{prefix}logo.png" alt="The Better Bite logo" width="92" height="92">
+      <h1>The Better Bite <em class="by">by Em</em></h1>
+      <p>High-protein recipes that still taste like a treat.</p>
+      <p class="side-note">Tap a photo for the recipe!</p>
+      <div class="links-actions">
+        <a class="btn btn-primary" href="{prefix}#recipes">All recipes</a>
+        <a class="btn" href="mailto:{SITE['email']}">Email me</a>
+      </div>
+    </header>
+    <div class="ltiles">{tiles}</div>
+    <p class="links-foot"><a href="{prefix}">thebetterbitebyem.co.uk</a></p>
+  </div>
+</main>
+</body>
+</html>
+"""
+    write("links/index.html", out)
+
+
 # ---------- Extras ----------
 
 def build_extras(series_built):
@@ -642,6 +699,7 @@ if __name__ == "__main__":
     for entry in ENTRIES:
         (build_post if entry.get("kind") == "post" else build_recipe)(entry)
     built = [slug for slug, s in SERIES.items() if build_series(slug, s)]
+    build_links()
     build_extras(built)
     print(f"Built {len(RECIPES)} recipes, {len(ENTRIES) - len(RECIPES)} post(s) and {len(built)} series pages "
           f"(skipped {len(DATA['recipes']) - len(ENTRIES)} drafts) for {URL}")
