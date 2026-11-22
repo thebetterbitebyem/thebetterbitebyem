@@ -366,3 +366,13 @@ footer .wrap { row-gap: 6px; }
 .lname { font-size: 0.78rem; line-height: 1.25; font-weight: 600; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .links-foot { text-align: center; margin: 28px 0 0; font-weight: 700; }
 .links-foot a { text-decoration: none; }
+
+/* Watch the reel */
+.reel-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+.reel-title { margin: 18px 0 -6px; font: 800 0.75rem/1.2 var(--font-body); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.btn-reel { background: var(--surface); padding: 9px 16px 9px 10px; }
+.btn-reel .ic { width: 24px; height: 24px; }
+.btn-reel:hover { background: var(--peach); }
+.mreel { display: inline-flex; align-items: center; gap: 6px; margin-top: 12px; font-weight: 700; font-size: 0.88rem; text-decoration: none; color: var(--orange-text); }
+.mreel .ic { width: 20px; height: 20px; }
+.mreel:hover { text-decoration: underline; }

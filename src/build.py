@@ -65,6 +65,7 @@ def ld(obj):
 
 # ---------- Small drawings ----------
 
+ART["icons"].setdefault("play", '<circle class="il f-orange" cx="12" cy="12" r="9.5"/><path class="f-white il thin" d="M10 8.2l6 3.8-6 3.8z"/>')
 ART["icons"].setdefault("mail", '<rect class="il f-white" x="2.5" y="5" width="19" height="14" rx="2.5"/><path class="il o" d="M3.5 6.5l8.5 6.5 8.5-6.5"/>')
 ART["icons"].setdefault("chat", '<path class="il f-peach" d="M4 5h16a1.5 1.5 0 0 1 1.5 1.5v9A1.5 1.5 0 0 1 20 17h-9l-4.5 3.5V17H4a1.5 1.5 0 0 1-1.5-1.5v-9A1.5 1.5 0 0 1 4 5z"/><circle class="f-ink" cx="8" cy="11" r="1.1"/><circle class="f-ink" cx="12" cy="11" r="1.1"/><circle class="f-ink" cx="16" cy="11" r="1.1"/>')
 
@@ -418,6 +419,11 @@ def recipe_ld(r):
     return obj
 
 
+def reel_button(url, label="Watch the reel"):
+    return (f'<a class="btn btn-reel" href="{esc(url)}" target="_blank" rel="noopener">'
+            f'{icon("play")}{esc(label)}<span class="sr-only"> on Instagram (opens in a new tab)</span></a>')
+
+
 def build_recipe(r):
     prefix = "../../"
     main, thumbs = gallery(r, prefix)
@@ -469,6 +475,7 @@ def build_recipe(r):
             {''.join(stats)}
           </dl>
           <p class="note">{note}</p>
+          {f'<div class="reel-row">{reel_button(r["reel"])}</div>' if r.get("reel") else ""}
         </div>
       </div>
       <div class="recipe-body">
@@ -515,9 +522,17 @@ def build_post(r):
         f'<article class="mousse{" win" if m is winner else ""}" id="{m["id"]}">'
         f'<span class="place">#{m["rank"]} · {m["taste"]}/10</span>'
         f'<h3>{esc(m["name"])}</h3><p class="mmeta"><b>{m["protein"]}g protein</b> · about {m["kcal"]} kcal per bowl</p>'
-        f'<ul>{"".join(f"<li>{esc(i)}</li>" for i in m["items"])}</ul></article>'
+        f'<ul>{"".join(f"<li>{esc(i)}</li>" for i in m["items"])}</ul>'
+        + "".join(f'<a class="mreel" href="{esc(x["url"])}" target="_blank" rel="noopener">{icon("play")}Watch {esc(x["label"].split(":")[0].lower())} on Instagram</a>'
+                  for x in r.get("reels", []) if m["id"].startswith(x["base"]))
+        + '</article>'
         for m in sorted(ms, key=lambda m: m["rank"]))
 
+    reels = r.get("reels", [])
+    reels_row = ""
+    if reels:
+        reels_row = ('<p class="reel-title">Watch the taste test</p><div class="reel-row">'
+                     + "".join(reel_button(x["url"], x["label"]) for x in reels) + "</div>")
     images = share_images(r)
     structured = ld({
         "@context": "https://schema.org", "@type": "BlogPosting",
@@ -551,6 +566,7 @@ def build_post(r):
             <div class="protein"><dt>{icon('medal')}Winner</dt><dd>{winner['taste']}/10</dd></div>
           </dl>
           <p class="note">The winner: <a href="#{winner['id']}">{esc(winner['name'].lower())}</a>. Macros are approximate per bowl and vary by brand.</p>
+          {reels_row}
         </div>
       </div>
 
@@ -633,7 +649,7 @@ def build_links():
         f'<a class="ltile" href="{prefix}recipes/{r["slug"]}/">'
         f'<span class="limg">{photo(r["photos"][0], prefix) if r.get("photos") else doodle(r["doodle"])}</span>'
         f'<span class="lname">{esc(r["title"])}</span></a>'
-        for r in ENTRIES)
+        for r in sorted(ENTRIES, key=lambda r: r.get("igOrder", 999)))
     out = head("The Better Bite by Em | Recipes from Instagram",
                "Tap a photo to get the recipe. High-protein recipes by Em from @thebetterbitebyem.",
                URL + "/links/", prefix, URL + "/logo.png", '<meta name="robots" content="noindex">', nav=False)

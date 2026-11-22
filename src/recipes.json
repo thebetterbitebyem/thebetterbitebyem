@@ -96,7 +96,9 @@
     "healthy dessert"
    ],
    "shareFrom": "ferrero-2",
-   "draft": false
+   "draft": false,
+   "reel": "https://www.instagram.com/p/DgAbOh4Nmim/",
+   "igOrder": 0
   },
   {
    "kind": "post",
@@ -265,7 +267,25 @@
     }
    ],
    "datePublished": "2026-11-22",
-   "draft": false
+   "draft": false,
+   "igOrder": 9,
+   "reels": [
+    {
+     "label": "Round 1: cottage cheese",
+     "url": "https://www.instagram.com/p/DfAm0KYt01F/",
+     "base": "cottage-cheese"
+    },
+    {
+     "label": "Round 2: Greek yogurt",
+     "url": "https://www.instagram.com/p/DfC_LCdt5kM/",
+     "base": "greek-yogurt"
+    },
+    {
+     "label": "Final: silken tofu",
+     "url": "https://www.instagram.com/p/DfFro9mNVqA/",
+     "base": "silken-tofu"
+    }
+   ]
   },
   {
    "slug": "biscoff-banana-bread-pudding",
@@ -337,7 +357,9 @@
    ],
    "shareFrom": "biscoff-1",
    "draft": false,
-   "seriesOrder": 4
+   "seriesOrder": 4,
+   "reel": "https://www.instagram.com/p/Df5EZctNULE/",
+   "igOrder": 1
   },
   {
    "slug": "snickers-protein-yogurt-bowl",
@@ -412,7 +434,9 @@
     }
    ],
    "datePublished": "2026-11-22",
-   "draft": false
+   "draft": false,
+   "reel": "https://www.instagram.com/p/DfSpDQBtFEp/",
+   "igOrder": 7
   },
   {
    "slug": "healthyish-marble-cake",
@@ -560,7 +584,9 @@
     }
    ],
    "datePublished": "2026-11-22",
-   "draft": false
+   "draft": false,
+   "reel": "https://www.instagram.com/p/DfKljStNQ5x/",
+   "igOrder": 8
   },
   {
    "slug": "caramel-almond-crunch-bowl",
@@ -688,7 +714,9 @@
     }
    ],
    "datePublished": "2026-11-22",
-   "draft": false
+   "draft": false,
+   "reel": "https://www.instagram.com/p/De14jdUNN3R/",
+   "igOrder": 11
   },
   {
    "slug": "brownie-batter-ninja-creami",
@@ -742,7 +770,9 @@
     }
    ],
    "datePublished": "2026-11-22",
-   "draft": false
+   "draft": false,
+   "reel": "https://www.instagram.com/p/DeZdffmNx6r/",
+   "igOrder": 15
   },
   {
    "slug": "oreo-cheesecake-ninja-creami",
@@ -801,7 +831,9 @@
     }
    ],
    "datePublished": "2026-11-22",
-   "draft": false
+   "draft": false,
+   "reel": "https://www.instagram.com/p/Dew8IJ3NnDQ/",
+   "igOrder": 12
   },
   {
    "slug": "blueberry-protein-froyo",
@@ -868,7 +900,9 @@
    ],
    "datePublished": "2026-11-22",
    "draft": false,
-   "seriesOrder": 3.5
+   "seriesOrder": 3.5,
+   "reel": "https://www.instagram.com/p/De7NCGLtWd8/",
+   "igOrder": 10
   },
   {
    "slug": "mango-cheesecake-protein-pot",
@@ -927,7 +961,9 @@
    ],
    "datePublished": "2026-11-22",
    "draft": false,
-   "seriesOrder": 1
+   "seriesOrder": 1,
+   "reel": "https://www.instagram.com/p/DelxrvzN-Rm/",
+   "igOrder": 14
   },
   {
    "slug": "pre-run-protein-toast",
@@ -991,7 +1027,9 @@
    ],
    "datePublished": "2026-11-22",
    "draft": false,
-   "seriesOrder": 2
+   "seriesOrder": 2,
+   "reel": "https://www.instagram.com/p/DerxHshtgRG/",
+   "igOrder": 13
   },
   {
    "slug": "chocolate-apple-cups",
@@ -1055,7 +1093,9 @@
     }
    ],
    "datePublished": "2026-11-22",
-   "draft": false
+   "draft": false,
+   "reel": "https://www.instagram.com/p/DffcmyctWRt/",
+   "igOrder": 6
   },
   {
    "slug": "viral-apple-salad",
@@ -1126,7 +1166,9 @@
     }
    ],
    "datePublished": "2026-11-22",
-   "draft": false
+   "draft": false,
+   "reel": "https://www.instagram.com/p/Dfh918pNc0T/",
+   "igOrder": 5
   },
   {
    "slug": "apple-brownie-for-one",
@@ -1194,7 +1236,9 @@
     }
    ],
    "datePublished": "2026-11-22",
-   "draft": false
+   "draft": false,
+   "reel": "https://www.instagram.com/p/Dfkdqpnt0gh/",
+   "igOrder": 4
   },
   {
    "slug": "rice-paper-apple-pie",
@@ -1269,7 +1313,9 @@
     }
    ],
    "datePublished": "2026-11-22",
-   "draft": false
+   "draft": false,
+   "reel": "https://www.instagram.com/p/DfnCxfHtmWs/",
+   "igOrder": 3
   },
   {
    "slug": "apple-crumble-breakfast-oats",
@@ -1338,7 +1384,9 @@
     }
    ],
    "datePublished": "2026-11-22",
-   "draft": false
+   "draft": false,
+   "reel": "https://www.instagram.com/p/Dfpo0tatHTt/",
+   "igOrder": 2
   }
  ],
  "series": {

@@ -44,3 +44,8 @@ Style notes: names and headings start with a capital letter; Em's recipes put pr
 
 - Em's email is `site.email` in `src/recipes.json`; it appears in the Get in touch section, the footer and the links page.
 - `links/index.html` (thebetterbitebyem.co.uk/links) is the page in Em's Instagram bio: a 3-column photo grid of every recipe in the same order as `src/recipes.json`. It's built automatically and marked noindex.
+
+## Instagram reels
+
+- `reel` on a recipe is its Instagram post link and shows a "Watch the reel" button. The taste-test post uses `reels` (one per episode, with a `base` that links each mousse recipe to its episode).
+- `igOrder` is the position in Em's Instagram grid (0 = newest). The links page sorts by it; recipes without it go last. When adding a new recipe with a reel, give it `igOrder: 0` and add 1 to everyone else's.
