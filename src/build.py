@@ -235,7 +235,7 @@ def nav_html(prefix):
     <nav class="nav-links" aria-label="Main">
       <a class="nav-recipes" href="{prefix}#recipes">Recipes</a>
       <a class="nav-about" href="{prefix}#about">About</a>
-      <a href="{SITE['instagram']}" target="_blank" rel="noopener">Instagram ↗</a>
+      <a class="nav-ig" href="{SITE['instagram']}" target="_blank" rel="noopener">{icon("play")}Instagram<span class="sr-only"> (opens in a new tab)</span></a>
     </nav>
   </div>
 </header>"""

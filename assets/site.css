@@ -45,9 +45,12 @@ h1, h2, h3 { text-wrap: balance; font-weight: 400; }
 .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; }
 .brand img { width: 40px; height: 40px; }
 .brand span { font-family: var(--font-display); font-size: 1.35rem; white-space: nowrap; }
-.nav-links { display: flex; gap: 20px; font-weight: 700; font-size: 0.95rem; }
+.nav-links { display: flex; align-items: center; gap: 20px; font-weight: 700; font-size: 0.95rem; }
 .nav-links a { text-decoration: none; white-space: nowrap; }
 .nav-links a:hover { color: var(--orange-text); }
+.nav-links .nav-ig { display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px 4px 5px; border: 2px solid var(--ink); border-radius: 999px; background: #FFFDF8; }
+.nav-ig .ic { width: 22px; height: 22px; }
+.nav-links .nav-ig:hover { background: var(--peach); color: var(--ink); }
 
 /* Buttons */
 .btn {
