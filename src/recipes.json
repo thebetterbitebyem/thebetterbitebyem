@@ -1309,8 +1309,8 @@
   {
    "slug": "apple-crumble-breakfast-oats",
    "title": "Apple Crumble Breakfast Oats",
-   "seoTitle": "Apple Crumble Breakfast Oats (21g Protein)",
-   "description": "Apple crumble for breakfast: warm cinnamon apple, a crunchy almond oat crumble and vanilla protein yogurt layered in a jar. About 320 kcal and 21g protein.",
+   "seoTitle": "Apple Crumble Breakfast Oats (14g Protein)",
+   "description": "Apple crumble for breakfast: warm cinnamon apple, a crunchy almond oat crumble and vanilla protein yogurt layered in a jar. About 285 kcal and 14g protein.",
    "series": "Apple a Day",
    "seriesOrder": 5,
    "tile": "apricot",
@@ -1318,8 +1318,8 @@
    "cats": [
     "breakfast"
    ],
-   "protein": 21,
-   "kcal": 320,
+   "protein": 14,
+   "kcal": 285,
    "per": "jar",
    "time": "Cook, toast, then layer",
    "timeShort": "Stovetop",
@@ -1348,7 +1348,7 @@
     {
      "name": "To top",
      "items": [
-      "1 pot vanilla protein yogurt, or any yogurt plus protein powder",
+      "½ small pot vanilla protein yogurt (about 80g), or any yogurt plus protein powder",
       "Cinnamon"
      ]
     }
@@ -1361,7 +1361,7 @@
     "Dust with cinnamon, lid on and enjoy."
    ],
    "tip": "Make double the crumble for tomorrow!",
-   "noteExtra": "Estimate with a vanilla protein yogurt.",
+   "noteExtra": "Estimate with half a small pot (80g) of vanilla protein yogurt and without the optional protein powder.",
    "photos": [
     {
      "src": "photos/crumble-1.jpg",
