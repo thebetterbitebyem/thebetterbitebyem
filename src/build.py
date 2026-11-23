@@ -424,6 +424,10 @@ def recipe_ld(r):
         obj["cookTime"] = f"PT{r['cookMinutes']}M"
         if r.get("prepMinutes"):
             obj["totalTime"] = f"PT{r['prepMinutes'] + r['cookMinutes']}M"
+    elif r.get("prepMinutes"):
+        # No-bake: nothing to cook, so cook time is honestly zero.
+        # No totalTime here, since some no-bakes still need chilling or freezing.
+        obj["cookTime"] = "PT0M"
     if r.get("series"):
         obj["isPartOf"] = {"@type": "CreativeWorkSeries", "name": r["series"]}
     return obj
