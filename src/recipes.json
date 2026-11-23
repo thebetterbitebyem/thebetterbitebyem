@@ -314,7 +314,7 @@
     "desserts"
    ],
    "protein": 20,
-   "kcal": null,
+   "kcal": 525,
    "per": "jar",
    "time": "5 min",
    "timeShort": "5 min",
@@ -341,7 +341,7 @@
    ],
    "tip": "Look at those layers! Build it in a glass jar so you can see them.",
    "seoTitle": "Biscoff Banana Bread Pudding (20g Protein, 4 Ingredients)",
-   "description": "Layers of Biscoff biscuit, vanilla protein pudding, banana and melted Biscoff in a jar. 4 ingredients, 5 minutes and 20g protein. Protein Snack Hack episode 4.",
+   "description": "Layers of Biscoff biscuit, vanilla protein pudding, banana and melted Biscoff in a jar. 4 ingredients, 5 minutes and 20g protein.",
    "datePublished": "2026-11-21",
    "prepMinutes": 5,
    "category": "Dessert",
@@ -355,7 +355,11 @@
    "draft": false,
    "seriesOrder": 4,
    "reel": "https://www.instagram.com/p/Df5EZctNULE/",
-   "igOrder": 1
+   "igOrder": 1,
+   "carbs": 72,
+   "fat": 18,
+   "fibre": 4,
+   "noteExtra": "Estimate with a 150 kcal vanilla protein pudding pot and a medium banana."
   },
   {
    "slug": "snickers-protein-yogurt-bowl",
