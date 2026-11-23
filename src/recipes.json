@@ -477,7 +477,7 @@
      "name": "Topping (optional)",
      "items": [
       "Hazelnut butter, to spread",
-      "Terry's chocolate orange segments, to decorate"
+      "Chocolate orange segments, to decorate"
      ]
     }
    ],
@@ -714,7 +714,7 @@
    "slug": "brownie-batter-ninja-creami",
    "title": "Brownie Batter Ninja Creami",
    "seoTitle": "Brownie Batter Ninja Creami (Banana Ice Cream, No Protein Powder)",
-   "description": "Tastes like brownie batter: banana and cocoa Ninja Creami ice cream with PBfit and a crumbled chocolate cake mix-in. About 200 kcal and 9g protein a serving.",
+   "description": "Tastes like brownie batter: banana and cocoa Ninja Creami ice cream with powdered peanut butter and a crumbled chocolate cake mix-in. About 200 kcal and 9g protein a serving.",
    "doodle": "mug",
    "tile": "tan",
    "tag": "Ninja Creami",
@@ -741,10 +741,10 @@
      "items": [
       "3 large bananas",
       "40g cocoa powder",
-      "20g PBfit peanut powder",
-      "150ml SuperNutrio milk, or to the fill line",
+      "20g powdered peanut butter",
+      "150ml high-protein milk, or to the fill line",
       "Maple syrup (optional)",
-      "1 Fibre One chocolate cake bar (optional)"
+      "1 chocolate cake bar, crumbled (optional)"
      ]
     }
    ],
@@ -861,7 +861,7 @@
      "items": [
       "150g 0% Greek yoghurt",
       "40g frozen blueberries",
-      "15g Milkybar buttons (about 9)",
+      "15g white chocolate buttons (about 9)",
       "7 almonds",
       "Honey or stevia drops (optional)"
      ]
@@ -927,9 +927,9 @@
     {
      "name": null,
      "items": [
-      "½ pot All Things mango cottage cheese (120g)",
+      "120g mango cottage cheese (about ½ pot)",
       "70g frozen mango chunks",
-      "5g Aldi 4 seed mix (about 1 tsp)"
+      "5g omega-3 seed mix (about 1 tsp)"
      ]
     }
    ],
