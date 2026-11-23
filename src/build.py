@@ -383,6 +383,14 @@ def nutrition_figures(r):
     return figs[0] if len(figs) == 1 else ", ".join(figs[:-1]) + " and " + figs[-1]
 
 
+def step_name(text):
+    """A short name for a method step: its first sentence, cut at a comma if it's long."""
+    name = re.split(r"(?<=[.!?])\s", text.strip(), maxsplit=1)[0].rstrip(".!? ")
+    if len(name) > 70 and "," in name:
+        name = name.split(",")[0]
+    return name
+
+
 def recipe_ld(r):
     nutrition = {"@type": "NutritionInformation", "servingSize": f"1 {r['per']}"}
     if r.get("kcal"):
@@ -400,12 +408,13 @@ def recipe_ld(r):
         "datePublished": r.get("datePublished", TODAY),
         "description": r.get("description", r["intro"]),
         "recipeCategory": r.get("category", "Dessert"),
+        "recipeCuisine": r.get("cuisine", SITE.get("cuisine", "British")),
         "recipeYield": portions(r),
         "keywords": ", ".join(r.get("keywords", [])),
         "nutrition": nutrition,
         "recipeIngredient": [i for g in r["groups"] for i in g["items"]],
         "recipeInstructions": [
-            {"@type": "HowToStep", "position": n + 1, "text": s, "url": f"{page_url(r)}#step-{n + 1}"}
+            {"@type": "HowToStep", "position": n + 1, "name": step_name(s), "text": s, "url": f"{page_url(r)}#step-{n + 1}"}
             for n, s in enumerate(r["method"])],
         "url": page_url(r),
     }
