@@ -388,3 +388,6 @@ footer .wrap { row-gap: 6px; }
   .reel-row .btn-reel { width: 100%; justify-content: center; }
 }
 @media (prefers-reduced-motion: reduce) { .btn-reel:hover, .btn-reel:active { transform: none; } }
+/* keep the Reel tag's icon its own size inside photo tiles */
+.tile .photo-reel svg.ic { width: 22px; height: 22px; }
+.photo-reel { white-space: nowrap; }
