@@ -460,7 +460,8 @@ def build_recipe(r):
 
     stats = []
     if r.get("protein"):
-        stats.append(f'<div class="protein"><dt>{icon("bolt")}Protein</dt><dd>{r["protein"]}g</dd></div>')
+        pnote = f'<small>{esc(r["proteinNote"])}</small>' if r.get("proteinNote") else ""
+        stats.append(f'<div class="protein"><dt>{icon("bolt")}Protein</dt><dd>{r["protein"]}g{pnote}</dd></div>')
     if r.get("kcal"):
         stats.append(f'<div><dt>{icon("flame")}Calories</dt><dd>{r["kcal"]} kcal</dd></div>')
     stats.append(f'<div><dt>{icon("clock")}Time</dt><dd>{esc(r["time"])}</dd></div>')

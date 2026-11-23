@@ -529,7 +529,7 @@
     "desserts",
     "snacks"
    ],
-   "protein": null,
+   "protein": 4,
    "kcal": 210,
    "per": "truffle",
    "time": "No bake, 30 min in the freezer",
@@ -605,7 +605,7 @@
     "snacks"
    ],
    "protein": 25,
-   "kcal": null,
+   "kcal": 410,
    "per": "bowl",
    "time": "5 min",
    "timeShort": "5 min",
@@ -1043,7 +1043,7 @@
     "desserts",
     "snacks"
    ],
-   "protein": null,
+   "protein": 5,
    "kcal": 280,
    "per": "cup",
    "time": "No bake, 30 min in the fridge",
@@ -1245,8 +1245,8 @@
   {
    "slug": "rice-paper-apple-pie",
    "title": "Rice Paper Apple Pie",
-   "seoTitle": "Rice Paper Apple Pie (Air Fryer, About 160 kcal)",
-   "description": "Crunchy air fryer apple pies made with rice paper: jammy cinnamon apple, maple syrup and walnuts. Makes 2, about 160 kcal each.",
+   "seoTitle": "Rice Paper Apple Pie (Air Fryer, 11g Protein with Yogurt)",
+   "description": "Crunchy air fryer apple pies made with rice paper: jammy cinnamon apple, maple syrup and walnuts, served with Greek yogurt for protein. Makes 2, about 215 kcal and 11g protein each with the yogurt.",
    "series": "Apple a Day",
    "seriesOrder": 4,
    "tile": "tan",
@@ -1254,8 +1254,8 @@
    "cats": [
     "desserts"
    ],
-   "protein": null,
-   "kcal": 160,
+   "protein": 11,
+   "kcal": 215,
    "per": "pie",
    "time": "Air fry 12 min at 200°C",
    "timeShort": "Air fryer",
@@ -1278,7 +1278,7 @@
       "Maple syrup (to cook, brush and drizzle)",
       "2 rice paper sheets (or 4 for a double layer)",
       "2 walnuts, chopped, to top",
-      "Greek yogurt, for protein"
+      "100g 0% Greek yogurt per pie, to serve (this is the protein!)"
      ]
     }
    ],
@@ -1289,10 +1289,10 @@
     "Brush with maple syrup.",
     "Air fry for 12 minutes at 200°C.",
     "Drizzle with maple syrup and top with walnuts.",
-    "Serve with Greek yogurt."
+    "Serve each pie with 100g Greek yogurt for the protein."
    ],
    "tip": "Pro tip: use two rice paper sheets per pie for a sturdier, extra crunchy shell. Vanilla protein yogurt works for serving too!",
-   "noteExtra": "Uses one rice paper sheet per pie and excludes the yogurt. Add 100g Greek yogurt for +10g protein.",
+   "noteExtra": "Includes 100g of 0% Greek yogurt per pie, which is where the protein comes from (about 10g). Without the yogurt, each pie is about 1g protein and 160 kcal. Uses one rice paper sheet per pie.",
    "photos": [
     {
      "src": "photos/ricepaper-1.jpg",
@@ -1319,7 +1319,9 @@
    "draft": false,
    "reel": "https://www.instagram.com/p/DfnCxfHtmWs/",
    "igOrder": 3,
-   "prepMinutes": 10
+   "prepMinutes": 10,
+   "proteinNote": "from the yogurt",
+   "pill": "11g protein with yogurt"
   },
   {
    "slug": "apple-crumble-breakfast-oats",
