@@ -432,7 +432,8 @@
    "datePublished": "2026-11-22",
    "draft": false,
    "reel": "https://www.instagram.com/p/DfSpDQBtFEp/",
-   "igOrder": 7
+   "igOrder": 7,
+   "prepMinutes": 10
   },
   {
    "slug": "healthyish-marble-cake",
@@ -510,7 +511,8 @@
     }
    ],
    "datePublished": "2026-11-22",
-   "draft": false
+   "draft": false,
+   "prepMinutes": 15
   },
   {
    "slug": "chocolate-pistachio-truffles",
@@ -582,7 +584,8 @@
    "datePublished": "2026-11-22",
    "draft": false,
    "reel": "https://www.instagram.com/p/DfKljStNQ5x/",
-   "igOrder": 8
+   "igOrder": 8,
+   "prepMinutes": 30
   },
   {
    "slug": "caramel-almond-crunch-bowl",
@@ -708,7 +711,8 @@
    "datePublished": "2026-11-22",
    "draft": false,
    "reel": "https://www.instagram.com/p/De14jdUNN3R/",
-   "igOrder": 11
+   "igOrder": 11,
+   "prepMinutes": 5
   },
   {
    "slug": "brownie-batter-ninja-creami",
@@ -764,7 +768,8 @@
    "datePublished": "2026-11-22",
    "draft": false,
    "reel": "https://www.instagram.com/p/DeZdffmNx6r/",
-   "igOrder": 15
+   "igOrder": 15,
+   "prepMinutes": 10
   },
   {
    "slug": "oreo-cheesecake-ninja-creami",
@@ -825,7 +830,8 @@
    "datePublished": "2026-11-22",
    "draft": false,
    "reel": "https://www.instagram.com/p/Dew8IJ3NnDQ/",
-   "igOrder": 12
+   "igOrder": 12,
+   "prepMinutes": 10
   },
   {
    "slug": "blueberry-protein-froyo",
@@ -894,7 +900,8 @@
    "draft": false,
    "seriesOrder": 3.5,
    "reel": "https://www.instagram.com/p/De7NCGLtWd8/",
-   "igOrder": 10
+   "igOrder": 10,
+   "prepMinutes": 5
   },
   {
    "slug": "mango-cheesecake-protein-pot",
@@ -1083,7 +1090,8 @@
    "datePublished": "2026-11-22",
    "draft": false,
    "reel": "https://www.instagram.com/p/DffcmyctWRt/",
-   "igOrder": 6
+   "igOrder": 6,
+   "prepMinutes": 15
   },
   {
    "slug": "viral-apple-salad",
@@ -1156,7 +1164,8 @@
    "datePublished": "2026-11-22",
    "draft": false,
    "reel": "https://www.instagram.com/p/Dfh918pNc0T/",
-   "igOrder": 5
+   "igOrder": 5,
+   "prepMinutes": 5
   },
   {
    "slug": "apple-brownie-for-one",
@@ -1226,7 +1235,8 @@
    "datePublished": "2026-11-22",
    "draft": false,
    "reel": "https://www.instagram.com/p/Dfkdqpnt0gh/",
-   "igOrder": 4
+   "igOrder": 4,
+   "prepMinutes": 5
   },
   {
    "slug": "rice-paper-apple-pie",
@@ -1245,7 +1255,7 @@
    "per": "pie",
    "time": "Air fry 12 min at 200°C",
    "timeShort": "Air fryer",
-   "cookMinutes": 12,
+   "cookMinutes": 20,
    "makes": "Makes 2",
    "category": "Dessert",
    "keywords": [
@@ -1304,7 +1314,8 @@
    "datePublished": "2026-11-22",
    "draft": false,
    "reel": "https://www.instagram.com/p/DfnCxfHtmWs/",
-   "igOrder": 3
+   "igOrder": 3,
+   "prepMinutes": 10
   },
   {
    "slug": "apple-crumble-breakfast-oats",
@@ -1375,7 +1386,9 @@
    "datePublished": "2026-11-22",
    "draft": false,
    "reel": "https://www.instagram.com/p/Dfpo0tatHTt/",
-   "igOrder": 2
+   "igOrder": 2,
+   "prepMinutes": 5,
+   "cookMinutes": 15
   }
  ],
  "series": {
